@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400;1,500&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+h1{
+font-family: 'Playfair Display';
+text-align: center;
+}
+
+body{
+	font-family: 'Roboto';
+	margin: 0;
+}
+
+i.fa{
+	font-size: 5em;
+	color: #7947ad;
+}
+
+.col-sm-4{
+	text-align: 	center	;
+
+}
+
+.col-sm-3{
+	text-align: 	center	;
+
+}
+
+
+img{
+
+	display: 	block;
+	margin: 0 auto	;
+}
+
+.home-hero{
+	background-image: url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+}
+
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+
+footer{
+	padding: 	10px;
+	text-align: center;
+	border-top: 1px #8d86b3	;
+	padding: 10px;
+	background-color: 	#8d86b3;
+}
+
+a:link{
+color: purple;
+}
+
+a:visited{
+color: purple;
+}
+
+a:hover{
+color: blue;
+}
+
+a:active{
+color: black;
+}
+
+
+/* Navigation Bar */
+
+nav{
+	padding: 	10px;
+	background-color: #8d86b3;
+	border-top: 2px solid #8d86b3;
+	border-bottom: 2px solid #8d86b3;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 10px;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: 	black	;
+}
+nav a:visited{
+	color: 	white;
+}
+nav a:hover{
+	color: 	white;
+}
+nav a:active{
+	color: 	white	;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
